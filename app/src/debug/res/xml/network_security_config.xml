@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug Network Security Configuration -->
+<network-security-config
+    xmlns:tools="http://schemas.android.com/tools">
+    <base-config
+        tools:ignore="InsecureBaseConfiguration"
+        cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>
